@@ -1,0 +1,5 @@
+sonlar = list(map(int, input("Sonlarni kiriting: ").split()))
+juftlar=list(filter(lambda son:son%2==0,sonlar))
+kvadratlar=list(map(lambda son:son*son,juftlar))
+print("Juftlar: ",juftlar)
+print("Kvadratlar: ",kvadratlar)

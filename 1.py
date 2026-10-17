@@ -1,0 +1,13 @@
+son1=int(input("1-soni kiriting: "))
+son2=int(input("2-soni kiriting: "))
+son3=int(input("3-soni kiriting: "))
+son4=int(input("4-soni kiriting: "))
+son5=int(input("5-soni kiriting: "))
+yigindi=son1+son2+son3+son4+son5
+ortacha=(yigindi/5)
+eng_katta=max(son1,son2,son3,son4,son5)
+eng_kichik=min(son1,son2,son3,son4,son5)
+print("Yig'indi: ",yigindi)
+print("Ortacha: ",ortacha)
+print("Eng katta: ",eng_katta)
+print("Eng kichik: ",eng_kichik)

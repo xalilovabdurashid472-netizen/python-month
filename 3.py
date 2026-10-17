@@ -1,0 +1,7 @@
+matn=(input("Matn kirting: "))
+belgilar=len(matn)
+sozlar=len(matn.split())
+bosh_joy=matn.count("")
+print("Belgilar soni: ",belgilar)
+print("So'zlar soni: ",sozlar)
+print("Bo'sh joylar soni: ",bosh_joy)
